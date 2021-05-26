@@ -63,5 +63,4 @@ def get_news(url, n_pages=1):
     return news
 
 test = get_news("https://news.ycombinator.com", 2)
-#print(test[35], "\n", test[5])
 print(test)
